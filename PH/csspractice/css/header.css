@@ -1,0 +1,15 @@
+.article {
+    border: 10px solid #020202;
+    background-color: #c2b1b1;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 20px 50px 10px #504e4e;
+}
+
+.header {
+    background-color: #333;
+    color: lightgreen;
+    height: 1500px;
+    background-image: url(../../images/beautifulrose.jpg);
+    background-position: center;
+}

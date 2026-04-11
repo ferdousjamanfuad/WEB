@@ -1,0 +1,23 @@
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: right;
+    margin-top: 15px;
+}
+
+nav ul {
+    padding: 0px;
+}

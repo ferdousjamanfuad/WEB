@@ -38,6 +38,27 @@
     gap: 30px;
 }
 
+.section-heading {
+    max-width: 827px;
+}
+
+
+.section-heading h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #181818;
+}
+
+#about .about-container .section-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+    line-height: 30px;
+}
+
+
+
 /* main style */
 
 
@@ -45,6 +66,10 @@ header {
     background-color: FFF8F3;
     padding-top: 50px;
     background: url(../../images/developer.png), url(../../images/header_bg.png), #FFF8F3;
+    background-size:
+        100px 750px,
+        833px 518px;
+
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -115,4 +140,32 @@ nav .menu a:hover {
     max-width: 585px;
     height: 640px;
     vertical-align: middle;
+}
+
+#about {
+    padding-top: 130px;
+}
+
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+}
+
+.about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-card p {
+    font-size: 17px;
+    color: #757575;
+}
+
+.about-info .info-card h4 {
+    font-size: 17px;
+    font-weight: bold;
 }

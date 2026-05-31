@@ -59,7 +59,9 @@
     line-height: 30px;
 }
 
-
+.text-center {
+    text-align: center;
+}
 
 /* main style */
 
@@ -144,7 +146,9 @@ nav .menu a:hover {
     vertical-align: middle;
 }
 
-#about {
+#about,
+#skills,
+#resume {
     padding-top: 130px;
 }
 
@@ -169,10 +173,6 @@ nav .menu a:hover {
 .about-info .info-card h4 {
     font-size: 17px;
     font-weight: bold;
-}
-
-#skills {
-    padding-top: 130px;
 }
 
 #skills .skill-container {
@@ -210,4 +210,97 @@ nav .menu a:hover {
     font-size: 16px;
     color: #757575;
     line-height: 28px;
+}
+
+#resume .resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-container h2 {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-container hr {
+
+    margin: 30px 0;
+}
+
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.resume-card h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.resume-card .institute {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.resume-card p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+footer {
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 0;
+}
+
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-container .social {
+    max-width: 562px;
+
+}
+
+.footer-container .social p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+
+.footer-container .social .icons a {
+    margin-right: 24px;
+}
+
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+    width: 450px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }

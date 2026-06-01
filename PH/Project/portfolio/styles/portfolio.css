@@ -71,17 +71,20 @@ header {
     padding-top: 50px;
     background: url(../../images/developer.png), url(../../images/header_bg.png), #FFF8F3;
     background-size:
-        100px 750px,
+        100px 740px,
         833px 518px;
 
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 32px, bottom right;
 }
 
-nav {
+.container {
     max-width: 1140px;
     width: 71%;
     margin: 0px auto;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,9 +156,7 @@ nav .menu a:hover {
 }
 
 #about .about-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
+
     background-color: #FFF8F3;
     padding: 131px 157px;
 }
@@ -175,11 +176,6 @@ nav .menu a:hover {
     font-weight: bold;
 }
 
-#skills .skill-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
-}
 
 #skills .skill-container .skill-box {
     display: flex;
@@ -213,9 +209,7 @@ nav .menu a:hover {
 }
 
 #resume .resume-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 113px auto 0;
+    margin-top: 113px;
     display: flex;
     gap: 24px;
 }
@@ -264,9 +258,6 @@ footer {
 }
 
 footer .footer-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
     display: flex;
     gap: 116px;
 }
@@ -297,7 +288,7 @@ footer .footer-container {
 
 .footer-container form input[type="text"],
 .footer-container form textarea {
-    width: 450px;
+    width: 461px;
     padding: 18px 31px;
     margin-bottom: 24px;
     border: none;

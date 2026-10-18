@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Your Account</title>
+</head>
+
+<body>
+
+    <h1>Create your account</h1>
+    <h3>Join us in a couple of steps.</h3>
+
+    <form action="register.php" method="post">
+
+        <!-- Full Name -->
+        <label for="fullname">Full Name</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Jane Doe">
+        <br><br>
+
+        <!-- Age -->
+        <label for="age">Age</label><br>
+        <input type="number" id="age" name="age" placeholder="28">
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email" placeholder="jane@example.com">
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Password">
+        <br><br>
+
+        <!-- Preferred Contact -->
+        <label>Preferred Contact</label>
+        <br><br>
+
+        <input type="radio" id="emailcontact" name="contact" value="Email">
+
+        <label for="emailcontact">Email</label>
+
+        <input type="radio" id="phonecontact" name="contact" value="Phone">
+
+        <label for="phonecontact">Phone</label>
+
+        <input type="radio" id="smscontact" name="contact" value="SMS">
+
+        <label for="smscontact">SMS</label>
+
+        <br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
